@@ -1,3 +1,6 @@
+/**
+ * Abstract class used to be inherited by specific products
+ */
 export function AbstractProduct() {}
 
 Object.assign(AbstractProduct.prototype, {
@@ -163,9 +166,10 @@ Object.assign(AbstractProduct.prototype, {
 });
 
 /**
- *
+ * The function searches for a products based on a given description
  * @param {Array} products
- * @param {String} search
+ * @param {String} search a given description
+ * @returns {Array} wanted products
  */
 export function searchProducts(products, search) {
 	return products.filter(
@@ -176,10 +180,10 @@ export function searchProducts(products, search) {
 }
 
 /**
- *
+ * the function sorts products by the specified property
  * @param {Array} products
- * @param {String} sortRule
- * @returns
+ * @param {String} sortRule the specified property
+ * @returns {Array}
  */
 export function sortProducts(products, sortRule) {
 	return products

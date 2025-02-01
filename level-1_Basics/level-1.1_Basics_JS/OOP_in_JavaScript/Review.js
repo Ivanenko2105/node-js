@@ -1,3 +1,8 @@
+/**
+ * A constructor function that creates an object of type Review
+ * @param {Object} param0 an object that contains Review data
+ * @returns {Review} an object of type Review
+ */
 export function Review({ ID, author, date, comment, rating }) {
 	this.ID = ID;
 	this.author = author;

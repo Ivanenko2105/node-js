@@ -1,5 +1,11 @@
 import { AbstractProduct } from './AbstractProduct.js';
 
+/**
+ * A constructor function that creates an object of type Electronics
+ * This class inherits the functionality of the class AbstractProduct.
+ * @param {Object} param0 an object that contains Electronics data
+ * @returns {Electronics} an object of type Electronics
+ */
 export function Electronics({
 	ID,
 	name,

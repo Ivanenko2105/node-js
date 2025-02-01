@@ -1,3 +1,8 @@
+/**
+ * A constructor function that creates an object of type product
+ * @param {Object} param0 an object that contains product data
+ * @returns {Product} an object of type product
+ */
 export function Product({
 	ID,
 	name,
@@ -165,6 +170,11 @@ export function Product({
 	};
 }
 
+/**
+ * A constructor function that creates an object of type Review
+ * @param {Object} param0 an object that contains Review data
+ * @returns {Review} an object of type Review
+ */
 export function Review({ ID, author, date, comment, rating }) {
 	return {
 		ID,
@@ -216,9 +226,10 @@ export function Review({ ID, author, date, comment, rating }) {
 }
 
 /**
- *
+ * The function searches for a products based on a given description
  * @param {Array} products
- * @param {String} search
+ * @param {String} search a given description
+ * @returns {Array} wanted products
  */
 export function searchProducts(products, search) {
 	return products.filter(
@@ -229,10 +240,10 @@ export function searchProducts(products, search) {
 }
 
 /**
- *
+ * the function sorts products by the specified property
  * @param {Array} products
- * @param {String} sortRule
- * @returns
+ * @param {String} sortRule the specified property
+ * @returns {Array}
  */
 export function sortProducts(products, sortRule) {
 	return products

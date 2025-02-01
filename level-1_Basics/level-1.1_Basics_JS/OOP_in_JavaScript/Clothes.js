@@ -1,5 +1,11 @@
 import { AbstractProduct } from './AbstractProduct.js';
 
+/**
+ * A constructor function that creates an object of type Clothes
+ * This class inherits the functionality of the class AbstractProduct.
+ * @param {Object} param0 an object that contains Clothes data
+ * @returns {Clothes} an object of type Clothes
+ */
 export function Clothes({
 	ID,
 	name,
