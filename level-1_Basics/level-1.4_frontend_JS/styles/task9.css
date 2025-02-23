@@ -1,0 +1,14 @@
+#textarea {
+	height: 100px;
+}
+
+#area-btn {
+	margin: 20px auto;
+}
+
+#images {
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	margin: auto;
+}

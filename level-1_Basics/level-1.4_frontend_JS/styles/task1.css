@@ -1,0 +1,21 @@
+.block {
+	background-color: black;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	border-radius: 10px;
+}
+
+.h-container {
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+}
+
+.width-30 {
+	width: 30%;
+}
+
+.width-60 {
+	width: 60%;
+}

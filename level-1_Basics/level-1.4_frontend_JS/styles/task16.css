@@ -1,0 +1,20 @@
+.task16 {
+	text-align: center;
+}
+
+.no-scroll {
+	overflow: hidden;
+}
+
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(128, 128, 128, 0.5); /* Напівпрозорий сірий */
+	z-index: 9999;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

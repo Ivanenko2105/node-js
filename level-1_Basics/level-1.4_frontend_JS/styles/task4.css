@@ -1,0 +1,15 @@
+.task4 {
+	text-align: center;
+}
+
+.v-container {
+	display: flex;
+	margin: auto;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 20%;
+}
+
+#text-btn {
+	margin: 20px auto;
+}
